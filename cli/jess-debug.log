@@ -1,0 +1,80 @@
+11/01/2019, 12:10:10 PM Error: testing 12 testing 
+11/01/2019, 12:10:19 PM Error: testing 12 testing 
+11/01/2019, 1:01:49 PM Error: testing 12 testing 
+11/01/2019, 1:07:07 PM Error: EISDIR: illegal operation on a directory, readEISDIR: illegal operation on a directory, read {
+  "errno": -21,
+  "code": "EISDIR",
+  "syscall": "read",
+  "stack": "Error: EISDIR: illegal operation on a directory, read"
+}
+11/01/2019, 1:11:34 PM Error: './a' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 1:20:12 PM Error: './a' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:09:10 PM Error: 'false' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:09:19 PM Error: 'true' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:09:25 PM Error: 'false' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:11:23 PM Error: ''a' from '/Users/acrockett/Developer/Code/Zig/Jess/cli'' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:12:04 PM Error: 'a' from '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:31:56 PM Error: 'a' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:32:00 PM Error: './a' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:32:06 PM Error: '/a' is not a valid source file, Jess expected a .jss or .tss file! 
+11/01/2019, 3:51:58 PM Error: undefined 
+11/01/2019, 3:52:26 PM Error: /a is of an unsupported format, Jess expected a .jss or .tss file! 
+11/01/2019, 3:52:39 PM Error: /a.jss is of an unsupported format, Jess expected a .jss or .tss file! 
+11/01/2019, 3:53:02 PM Error: /a.jss is of an unsupported format, Jess expected a .jss or .tss file! 
+11/01/2019, 3:54:56 PM Error: /a.jss is of an unsupported format, Jess expected a ..jss or ..tss file! 
+11/01/2019, 3:55:14 PM Error: a.jss is of an unsupported format, Jess expected a ..jss or ..tss file! 
+11/01/2019, 3:55:45 PM Error: a.jss is of an unsupported file format, Jess expected a ..jss or ..tss file! 
+11/01/2019, 3:56:54 PM Error: 'a.jss' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file, Jess expected a ..jss or ..tss file! 
+11/01/2019, 3:57:10 PM Error: a.js is of an unsupported file format, Jess expected a ..jss or ..tss file! 
+11/01/2019, 3:58:11 PM Error: Unsupported file format '.js', Jess expected a .jss or .tss file! 
+11/01/2019, 4:00:14 PM Error: 'a.jss' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file, Jess expected a ..jss or ..tss file! 
+11/01/2019, 4:00:29 PM Error: Unsupported file format '.jess', Jess expected a .jss or .tss file! 
+11/01/2019, 4:00:46 PM Error: Unsupported file format '.jess', Jess expected a .jss or .tss file! 
+11/01/2019, 4:01:01 PM Error: 'a.jess' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file, Jess expected a ..jess or ..tess file! 
+11/01/2019, 4:02:08 PM Error: 'a.jess' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file!ENOENT: no such file or directory, open '/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/a.jess' {
+  "errno": -2,
+  "code": "ENOENT",
+  "syscall": "open",
+  "path": "/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/a.jess",
+  "stack": "Error: ENOENT: no such file or directory, open '/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/a.jess'"
+}
+11/01/2019, 4:02:47 PM Error: 'a.jess' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file! 
+11/01/2019, 4:03:14 PM Error: 'a.jess' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not a valid source file! ENOENT 
+11/01/2019, 4:04:17 PM Error: 'a.jess' from directory '/Users/acrockett/Developer/Code/Zig/Jess/cli' is not found! ENOENT 
+11/01/2019, 4:06:32 PM Error: '/Users/acrockett/Developer/Code/Zig/Jess/cli/a.jess' is not found! ENOENT 
+11/01/2019, 4:07:06 PM Error: Unsupported file format '', Jess expected a .jess or .tess file! 
+11/01/2019, 4:07:34 PM Error: Unsupported file format '', Jess expected a .jess or .tess extension! 
+11/01/2019, 4:07:58 PM Error: '/Users/acrockett/Developer/Code/Zig/Jess/cli/a.tess' is not found! ENOENT 
+11/01/2019, 4:08:32 PM Error: '/Users/acrockett/Developer/Code/Zig/Jess/samples/simple.jess' is not found! ENOENT 
+11/01/2019, 4:09:40 PM Error: undefined 
+11/01/2019, 4:10:08 PM Error: undefined 
+11/01/2019, 4:10:48 PM Error: undefined 
+11/01/2019, 4:11:48 PM Error: undefined 
+11/01/2019, 4:12:06 PM Error: undefined 
+11/01/2019, 4:12:21 PM Error: undefined 
+11/01/2019, 4:12:55 PM Error: undefined 
+11/01/2019, 4:12:57 PM Error: undefined 
+11/01/2019, 4:13:07 PM Error: undefined 
+11/01/2019, 4:13:20 PM Error: undefined 
+11/01/2019, 4:13:34 PM Error: undefined 
+11/01/2019, 4:14:08 PM Error: TypeError: Cannot read property 'compile' of undefined
+    at compileFile (/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/lib-jess.js:20:25)
+    at async /Users/acrockett/Developer/Code/Zig/Jess/cli/target/jess.js:27:17 
+11/01/2019, 4:15:06 PM Error: Internal: 
+11/01/2019, 4:15:40 PM Error: Panic: TypeError: Cannot read property 'compile' of undefined
+    at compileFile (/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/lib-jess.js:20:25)
+    at async /Users/acrockett/Developer/Code/Zig/Jess/cli/target/jess.js:27:17 
+11/01/2019, 4:16:00 PM Error: Panic! TypeError: Cannot read property 'compile' of undefined
+    at compileFile (/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/lib-jess.js:20:25)
+    at async /Users/acrockett/Developer/Code/Zig/Jess/cli/target/jess.js:27:17 
+11/01/2019, 4:17:55 PM Error: Panic! TypeError: Cannot read property 'compile' of undefined
+    at compileFile (/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/lib-jess.js:21:25)
+    at async /Users/acrockett/Developer/Code/Zig/Jess/cli/target/jess.js:27:17 
+11/05/2019, 10:36:33 AM Error: Panic! TypeError: Cannot read property 'set' of undefined
+    at compileFile (/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/lib-jess.js:28:19)
+    at async /Users/acrockett/Developer/Code/Zig/Jess/cli/target/jess.js:27:29 
+11/05/2019, 12:22:55 PM Error: Panic! TypeError: Cannot set property 'len' of undefined
+    at print (/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/lib-jess.js:17:26)
+    at compile (wasm-function[1]:0x5e)
+    at compileFile (/Users/acrockett/Developer/Code/Zig/Jess/lib-jess/target/lib-jess.js:33:28)
+    at async /Users/acrockett/Developer/Code/Zig/Jess/cli/target/jess.js:27:29 

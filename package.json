@@ -1,0 +1,21 @@
+{
+  "name": "@jess/project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-run-sample": "npm run build-all && node ./cli/target/jess.js compile ./samples/simple.jss",
+    "pkg-release": "npx pkg ./cli/target/jess.js --out-path ./release",
+    "build-all": "npm --prefix ./lib-jess run build && npm --prefix ./cli run build",
+    "test-all": "npm --prefix ./lib-jess test && npm --prefix ./cli test"
+  },
+  "author": "Adam Crockett",
+  "license": "ISC",
+  "dependencies": {
+    "@types/winston": "^2.4.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.2"
+  }
+}

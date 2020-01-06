@@ -1,0 +1,26 @@
+{
+  "name": "lib-jess",
+  "version": "1.0.0",
+  "description": "Provider code for lib-jess",
+  "main": "./target/lib-jess.js",
+  "scripts": {
+    "build": "npm run clean && npm run build-rust && npm run post-process && npm run build-ts-dev",
+    "post-process": "wasm-bindgen ./target/wasm32-unknown-unknown/debug/jess.wasm --target nodejs --out-dir ./target/wasm32-bindgen",
+    "build-rust": "cargo +nightly build --target wasm32-unknown-unknown",
+    "build-ts-dev": "tsc -p ./",
+    "clean": "rm -rf ./target/*",
+    "test": "cargo test --all --color auto",
+    "test-entry-run": "npx ts-node ./src/lib-jess.ts"
+  },
+  "author": "Adam Crockett",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.2",
+    "assemblyscript": "^0.8.1",
+    "node-fetch": "^2.6.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4",
+    "wasm-ts": "^0.1.3"
+  },
+  "types": "./target/lib-jess.d.ts"
+}
