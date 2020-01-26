@@ -1,21 +1,14 @@
 {
-  "name": "@jess/project",
+  "name": "@jess/repo",
   "version": "1.0.0",
-  "description": "",
+  "description": "The overarching repository for the jess projects, contains usefull scripts and binary release",
   "main": "index.js",
   "scripts": {
     "build-run-sample": "npm run build-all && node ./cli/target/jess.js compile ./samples/simple.jss",
-    "pkg-release": "npx pkg ./cli/target/jess.js --out-path ./release",
+    "pkg-release": "npx pkg ./cli/target/jess.js --out-path ./release/jess-$npm_package_version",
     "build-all": "npm --prefix ./lib-jess run build && npm --prefix ./cli run build",
     "test-all": "npm --prefix ./lib-jess test && npm --prefix ./cli test"
   },
   "author": "Adam Crockett",
-  "license": "ISC",
-  "dependencies": {
-    "@types/winston": "^2.4.4",
-    "winston": "^3.2.1"
-  },
-  "devDependencies": {
-    "pkg": "^4.4.2"
-  }
+  "license": "ISC"
 }
