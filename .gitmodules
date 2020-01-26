@@ -1,3 +1,6 @@
 [submodule "lib-jess"]
 	path = lib-jess
 	url = https://github.com/adam-cyclones/lib-jess.git
+[submodule "jess-cli"]
+	path = jess-cli
+	url = https://github.com/adam-cyclones/jess-cli.git
