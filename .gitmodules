@@ -1,0 +1,3 @@
+[submodule "lib-jess"]
+	path = lib-jess
+	url = https://github.com/adam-cyclones/lib-jess.git
