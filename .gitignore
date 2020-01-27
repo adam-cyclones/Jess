@@ -74,6 +74,7 @@ typings/
 
 # Jess artifacts
 jess-debug.log
+target
 
 # FuseBox cache
 .fusebox/
