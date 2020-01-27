@@ -94,6 +94,9 @@ dist
 # Serverless directories
 .serverless/
 
+# Jess artifacts
+jess-debug.log
+
 # FuseBox cache
 .fusebox/
 
