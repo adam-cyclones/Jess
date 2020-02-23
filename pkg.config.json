@@ -1,6 +1,0 @@
-{
-  "assets": [
-    "./lib-jess/target/lib-jess.wasm",
-    "./lib-jess/target/lib-jess.js"
-  ]
-}
