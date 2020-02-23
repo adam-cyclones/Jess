@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/adam-cyclones/Jess">
-    We don't have a logo yet, wana help?
+    We don't have a logo yet, can you help?
   </a>
 
   <h3 align="center">Jess</h3>
@@ -16,6 +16,8 @@
     <a href="https://github.com/adam-cyclones/Jess/issues">Report Bug</a>
     |
     <a href="https://github.com/adam-cyclones/Jess/issues">Request Feature</a>
+    |
+    <a href="https://dev.to/adam_cyclones/jess-language-design-2mag">News @ Dev.to</a>
   </p>
 </p>
 
@@ -37,7 +39,28 @@ Special notes, Rust is constantly moving, it is safe to assume that at some poin
 - Target wasm32-unknown-unknown `rustup target add wasm32-unknown-unknown`
 - wasm-bindgen `cargo install wasm-bindgen-cli`
 
-### Node
+#### Node
+- v12.14.1 - Jess will always be developed on (LTS)
 
 
 
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Dev.to](https://dev.to/)
