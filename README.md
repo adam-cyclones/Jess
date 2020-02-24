@@ -42,22 +42,17 @@ Special notes, Rust is constantly moving, it is safe to assume that at some poin
 #### Node
 - v12.14.1 - Jess will always be developed on (LTS)
 
-
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Adam Crockett - [adam_cyclones](https://dev.to/adam_cyclones) - dev.to
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/adam-cyclones/Jess](https://github.com/adam-cyclones/Jess)
 
 
 
